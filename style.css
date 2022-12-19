@@ -22,7 +22,14 @@ body {
 
 .intro-section {
   padding-bottom: 140px;
-  padding-top: 80px;
+  padding-top: 140px;
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .row {
@@ -39,6 +46,11 @@ h1 {
   font-weight: light;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+
+.row {
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .underline {
@@ -82,23 +94,46 @@ h1 {
 }
 
 .about-section h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .about-section h2 {
   font-size: 25px;
 }
 
-img {
-  width: 70%;
+.work-section {
+  padding-top: 30px;
+  padding-left: 50px;
 }
 
-@media (max-width: 576px) {
+.work-section h1 {
+  font-size: 40px;
+}
+
+.work-section h2 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.work-section h3 {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 5px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 820px) {
   h1,
   h2,
   h3,
   p {
     text-align: center;
+  }
+
+  .row {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .navigation-link {
@@ -112,8 +147,6 @@ img {
 
   img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
+    margin: auto;
   }
 }
